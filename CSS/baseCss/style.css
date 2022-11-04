@@ -1,0 +1,12 @@
+/* applique un style sur tout les balise qui appellent la classe */
+.color{
+    color: chartreuse;
+}
+/* ajoute un style sur toutes les balises h2 */
+h2{
+    color: blueviolet;
+}
+/* Ajoute un style uniquement pour la balise référencé par son id */
+#test{
+    color: brown;
+}

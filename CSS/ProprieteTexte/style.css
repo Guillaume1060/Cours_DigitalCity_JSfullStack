@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+}
+
+.absolueGrand{
+    font-size: 70px;
+}
+
+.absoluePetit{
+    font-size: 50px;
+}
+
+.relativeGrand{
+    font-size: 75%;
+}
+
+.relativePetit{
+    font-size: 25%;
+}
+
+.textBold{
+    font-weight: bold;
+}
+
+.textItalic{
+    font-style: italic;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.text-line-through{
+    text-decoration: line-through;
+}
+
+.text-overline{
+    text-decoration: overline;
+}
+
+.text-hidden{
+    overflow: hidden;
+}
+
+.text-scroll{
+    overflow: scroll;
+}
+
+.text-visible{
+    overflow: visible;
+}
+
+.sizeBox{
+    width: 150px;
+    height: 150px;
+}
+
+.text-verdana{
+    font-family: verdana;
+}

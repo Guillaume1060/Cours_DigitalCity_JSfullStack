@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    max-height: 100vh;
+    height: 100em;
+    width: 100%;
+}
+
+.box-small{
+    height: 95%;
+    width: 30%;
+    background-color: rgb(255, 247, 0);
+    float: left;
+}
+
+.box-small2{
+    height: 95%;
+    width: 70%;
+    background-color: brown;
+    float: right;
+}
+
+.box-medium{
+    height: 30%;
+    width: 30%;
+    background-color: azure;
+}
+
+.header{
+    background-color: blue;
+}
+
+.footer{
+    background-color: rgb(255, 0, 106);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.element-center{
+    margin: auto;
+}
+
+/* Comment faire un alignement vertical ????? a voir pour 4/11 matin */
+
+.margin-full{
+    /* C'est la meme chose... */
+    /* margin: 150px; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.padding-full{
+    /* C'est la meme chose... */
+    /* padding: 150px; */
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.padding-top{
+    padding-top: 30px;
+}
