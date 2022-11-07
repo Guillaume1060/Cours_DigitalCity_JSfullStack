@@ -92,3 +92,57 @@ ul {
 li {
   list-style: circle;
 }
+
+/* // formulaire */
+.contact {
+  margin-top: 5rem;
+}
+
+fieldset {
+  margin-bottom: 0.5rem;
+}
+
+.form__name,
+.form__tel {
+  width: 48%;
+}
+
+.form__firstname,
+.form__gsm {
+  margin-left: 1rem;
+  width: 48%;
+}
+
+.form__mail {
+  width: 98%;
+  margin-bottom: 0.5rem;
+}
+
+.form__textarea {
+  width: 85%;
+  margin-left: 1rem;
+  height: 3.5rem;
+}
+
+.button__envoyer {
+  width: 47%;
+  background-color: rgba(206, 206, 103, 0.4);
+  border: solid 1px;
+}
+
+.button__reset {
+  width: 47%;
+  margin-left: 5%;
+  background-color: rgba(206, 206, 103, 0.4);
+  border: solid 1px;
+}
+
+.button__retourCV {
+  width: 100%;
+  background-color: rgba(206, 206, 103, 0.4);
+  border: solid 1px;
+}
+
+select {
+  vertical-align: top;
+}

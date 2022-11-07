@@ -44,7 +44,58 @@
         <h3>Ma formation</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, facilis? Vitae dolore porro eos et enim! Quaerat deleniti, magnam iure eveniet sapiente vel laudantium distinctio aspernatur unde excepturi beatae? Consectetur! aliquid, officia nobis corrupti! Nihil facere possimus quia labore.</p>
     </section>
-</footer>
-</div>
+
+    <div class="contact">
+      <h1>Formulaire de contact</h1>
+      <form method="post" action="receptionForm.html">
+        <fieldset>
+            <legend>Coordonnées</legend>
+            <fieldset>
+                <label for="idNom"></label>
+                <input class="form__name" name="nom" id="idNom" type="text" required minlength="3" maxlength="5" placeholder="Nom">
+                <label for="idNom"></label>
+                <input class="form__firstname"name="prenom" id="idPrenom" type="text" required minlength="3" maxlength="5" placeholder="Prenom">
+                <br>
+                <label>Sexe :</label>
+                <input type="radio" name="sex" id="idRouge" checked>
+                <label for="Homme">Homme</label>
+                <input type="radio" name="sex" id="idRouge">
+                <label for="Femme">Femme</label>
+                <input type="radio" name="sex" id="idRouge">
+                <label for="Autre">Autre</label>
+                <br>
+                <label for="idEmail"></label>
+                <input class="form__mail" type="email" name="email" id="idEmail" placeholder="toto@gmail.com">
+                <br>
+                <label for="idtel"></label>
+                <input class="form__tel" type="tel" name="gsm" id="idtel" placeholder="N° mobile">
+                <label for="idTelFixe"></label>
+                <input class="form__gsm" type="telFixe" name="fixe" id="idtelFixe" placeholder="N° fixe">
+                <br>
+            </fieldset>
+
+          <fieldset>
+            <legend>Vos besoins</legend>
+            
+            <select name="web">
+              <optgroup label="Front-end">
+                  <option value="html">HTML</option>
+                  <option value="css">CSS</option>
+                  <option value="javascript">JavaScript</option>
+              </optgroup>
+              <optgroup label="Back-end">
+                  <option value="cSharp">C#</option>
+                  <option value="nodeJs">PHP</option>
+              </optgroup>
+          </select>
+          <textarea class="form__textarea" name="texte" id="texte" placeholder="khgkjgilfkfgk">
+          </textarea>
+        
+          </fieldset>
+
+          <input class="button__envoyer" type="submit" value="Envoyer">
+          <input class="button__reset" type="submit" value="Reset">
+          <input class="button__retourCV" type="submit" value="Retour au CV">
+     
   </body>
 </html>

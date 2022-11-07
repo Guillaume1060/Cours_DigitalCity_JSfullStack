@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Demo formulaire</title>
+</head>
+<body>
+    <form method="post" action="receptionForm.html">
+        <fieldset>
+            <legend>Mon ofrmulaire de contact</legend>
+            <fieldset>
+                <legend>Input types</legend>
+                <label for="idNom"> Nom : </label>
+                <input name="nom" id="idNom" type="text" required minlength="3" maxlength="5">
+                <br>
+                <label for="idAge"> Age : </label>
+                <input type="number" name="age" id="idAge" required placeholder="15" readonly>
+                <br>
+                <label for="idEmail"> Adresse E-mail : </label>
+                <input type="email" name="email" id="idEmail" required>
+                <br>
+                <label for="idPassword"> Mot de passe : </label>
+                <input type="password" name="password" id="idPassword" required>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Input Button(s)</legend>
+                <h3>- Checkbox</h3>
+                <input type="checkbox" name="soleil" id="idSoleil">
+                <label for="idSoleil"> J'aime le soleil</label>
+                <br>
+                <input type="checkbox" name="pluie" id="idPluie">
+                <label for="idPluie"> J'aime la pluie</label>
+                <br>
+                <h3>- Radio</h3>
+                <h5>Quel est votre couleur favorite ?</h5>
+                <input type="radio" name="couleurPref" id="idRouge">
+                <label for="idRouge">Rouge</label>
+                <br>
+                <input type="radio" name="couleurPref" id="idVert" checked="true">
+                <label for="idVert">Vert</label>
+                <br>
+                <input type="radio" name="couleurPref" id="idBleu">
+                <label for="idBleu">Bleu</label>
+                <br>
+                <h3>- Choix a liste</h3>
+                <h5>Veuillez choisir une catégorie</h5>
+                <select name="choixCat">
+                    <option value="jeuxVideo">jeux-video</option>
+                    <option value="informatique">informatique</option>
+                    <option value="textile">textile</option>
+                </select>
+
+                <h3>- liste de champs a choix</h3>
+                <select name="web" value="javascript">
+                    <optgroup label="Front-end">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="javascript">JavaScript</option>
+                    </optgroup>
+                    <optgroup label="Back-end">
+                        <option value="cSharp">cSharp</option>
+                        <option value="nodeJs">nodeJs</option>
+                        <option value="Symphony">Symphony</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+        </fieldset>
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
