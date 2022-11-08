@@ -61,6 +61,17 @@ p {
   margin: 5px 0 5px 15px;
 }
 
+.btnContact {
+  display: flex;
+}
+
+.lienContact {
+  background-color: rgba(206, 206, 103, 0.4);
+  margin: auto;
+  width: 15rem;
+  margin-bottom: 2rem;
+}
+
 .experience {
   border: solid 1px rgb(145, 145, 18);
   width: 65%;
@@ -145,4 +156,121 @@ fieldset {
 
 select {
   vertical-align: top;
+}
+
+/* /// Tableaux  */
+
+.tableaux {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: black;
+  padding: 3rem;
+  display: flex;
+  width: auto;
+}
+
+.titre1 {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  /* border: solid 1px white; */
+}
+
+.bordure {
+  border: solid 5px white;
+}
+
+.C {
+  vertical-align: bottom;
+}
+
+.A {
+  background-color: green;
+  vertical-align: top;
+  border: 10px solid red;
+  margin-bottom: 0;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.B {
+  background-color: yellow;
+  vertical-align: top;
+  border: 10px solid red;
+}
+
+table {
+  width: 50rem;
+  background-color: red;
+  height: 20rem;
+  text-align: center;
+  /* border: solid 10px white; */
+}
+
+.yellow {
+  /* background-color: yellow; */
+  border: 10px solid red;
+}
+
+.blue {
+  background-color: aqua;
+  border: 10px solid red;
+}
+
+/* tablo3 */
+
+.tablo3 {
+  width: 100%;
+  margin: auto;
+}
+
+.green3 {
+  background-color: green;
+  border: 5px solid rgb(129, 192, 129);
+}
+
+.yellow3 {
+  background-color: yellow;
+  border: 5px solid rgb(129, 192, 129);
+}
+
+.pink3 {
+  background-color: pink;
+  border: px solid green;
+}
+
+.blue3 {
+  background-color: aquamarine;
+  border: 5px solid rgb(129, 192, 129);
+}
+
+td {
+  border: 5px solid rgb(129, 192, 129);
+}
+
+/* 
+Mediaqueries */
+
+@media (max-width: 768px) {
+  body {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-image: none;
+  }
+
+  #cv {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  #picsou {
+    float: center;
+    width: 100%;
+  }
+
+  .formation {
+    width: 65%;
+    margin-top: 0;
+  }
 }
