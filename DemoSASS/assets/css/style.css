@@ -1,0 +1,50 @@
+* {
+  margin: 0 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.photo {
+  height: 25rem;
+  width: 25rem;
+  overflow: hidden;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.box-1 {
+  height: 50rem;
+  background-color: #18c5cc;
+  color: white;
+  width: 20rem;
+}
+.box-1 h2 {
+  display: inline-block;
+}
+.box-1 h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.box-1 p {
+  line-height: 2.4rem;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */
