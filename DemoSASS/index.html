@@ -2,72 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="/Cours_DigitalCity_JSfullStack/DemoSASS/assets/css/style.css"
-    />
-    <title>Document</title>
+
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="/DemoSASS/assets/scss/style.scss" />
+
+    <title>Exo flexbox</title>
   </head>
   <body>
-    <div class="main">
-      <div class="flex">
-        <div class="box-1">
-          <h3>La formation est tout</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-            praesentium totam, m culpa placeat velit architecto, iure eveniet
-            officia. Cumque!
-          </p>
-        </div>
-        <div class="box-2">
-          <div class="photo">
-            <img
-              src="/Cours_DigitalCity_JSfullStack/DemoSASS/assets/images/cartable.jpg"
-              alt="cartable"
-            />
-          </div>
-          <div class="photo">
-            <img
-              src="/Cours_DigitalCity_JSfullStack/DemoSASS/assets/images/pommier.jpg"
-              alt="pomme"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="box-3">
-        <div class="education">
-          <h2>L'EDUCATION EST LA CLE DU SUCCES</h2>
-        </div>
-        <div class="photo">
+    <div class="container">
+      <header class="top">
+        <p class="formation">formation</p>
+        <div class="box_1">
           <img
-            src="/Cours_DigitalCity_JSfullStack/DemoSASS/assets/images/reveil.jpg"
-            alt="reveil"
+            src="/DemoSASS/assets/images/cartable.jpg"
+            alt="logo"
+            class="photo"
+          />
+          <img
+            src="/DemoSASS/assets/images/pommier.jpg"
+            alt="logo"
+            class="photo"
           />
         </div>
-      </div>
-      <div class="photo">
+        <div class="box_2">
+          <p class="text">texte1</p>
+          <img
+            src="/DemoSASS/assets/images/reveil.jpg"
+            alt="logo"
+            class="photo"
+          />
+        </div>
+      </header>
+
+      <div class="bottom">
         <img
-          src="/Cours_DigitalCity_JSfullStack/DemoSASS/assets/images/blondinette.jpg"
-          alt="blonde"
+          src="/DemoSASS/assets/images/blondinette.jpg"
+          alt="logo"
+          class="photo"
         />
-      </div>
-      <div class="box-5">
-        <h4>Lorem dolor sit, expedita</h4>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ab
-          blanditiis aperiam, nisi a omnis rerum, in nostrum, temporibus
-          dignissimos reiciendis magni! Tempora perspiciatis culpa possimus in
-          nostrum. Placeat, culpa! Non omnis perspiciatis adipisci perferendis
-          dolore, fugiat dolores laboriosam natus totam blanditiis, cumque rem
-          ex facere alias nemo recusandae, facilis repellat dolorum officiis
-          libero necessitatibus harum ipsum ad quisquam! Facere? Pariatur
-          repellat odit eveniet delectus ratione, asperiores fuga reiciendis
-          voluptate quos aliquid dolor optio illo neque veritatis ullam suscipit
-          autem. Magni nobis ipsam cum nisi neque, ratione magnam quam quisquam.
-        </p>
-        <button class="btn">LIRE LA SUITE</button>
+        <p class="text_2">texte2</p>
       </div>
     </div>
   </body>
