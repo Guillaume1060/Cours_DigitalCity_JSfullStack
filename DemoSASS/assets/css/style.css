@@ -1,50 +1,133 @@
 * {
-  margin: 0 2rem;
+  margin: 0;
+  padding: 0;
 }
 
-.flex {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 80%;
+  height: 90vh;
+  margin: 10rem auto;
+}
+
+.top {
   display: flex;
+}
+
+.box {
+  flex: 1;
+}
+
+.formation {
+  flex: 0 0 33rem;
+  background-color: #18c5cc;
+  color: #ffffff;
+  margin-right: 2rem;
+}
+.formation h3 {
+  margin-top: 8rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4rem;
+  margin: 8rem 2rem 6rem 2rem;
+}
+.formation p {
+  margin: auto;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 6rem;
+  width: 66%;
 }
 
 .photo {
-  height: 25rem;
-  width: 25rem;
-  overflow: hidden;
+  width: 33rem;
+  height: 33rem;
+  background-size: cover;
+}
+.photo__cartable {
+  background-image: url(/assets/images/cartable.jpg);
+  margin-right: 2rem;
+}
+.photo__pomme {
+  background-image: url(/assets/images/pommier.jpg);
+}
+.photo__reveil {
+  background-image: url(/assets/images/reveil.jpg);
+}
+.photo__blonde {
+  background-image: url(/assets/images/blondinette.jpg);
+  margin-right: 2rem;
 }
 
-img {
-  height: 100%;
-  width: 100%;
-}
-
-.box-1 {
-  height: 50rem;
-  background-color: #18c5cc;
-  color: white;
-  width: 20rem;
-}
-.box-1 h2 {
-  display: inline-block;
-}
-.box-1 h3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding-top: 5rem;
-  text-align: center;
-  font-size: 2rem;
+.box__1 {
+  display: flex;
+  justify-content: space-around;
   margin-bottom: 2rem;
 }
-.box-1 p {
-  line-height: 2.4rem;
+
+.box__2 {
+  display: flex;
+  justify-content: space-around;
 }
 
-.box-2 {
+.box__text {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.box-3 {
+.text {
+  margin: auto;
+  width: 33rem;
+  height: 33rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  border: solid 1px #18c5cc;
+  color: #18c5cc;
+}
+
+.bottom {
   display: flex;
-  flex-direction: row;
+  margin-top: 4rem;
+}
+
+.text_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  margin-left: 3rem;
+  color: #ffffff;
+  height: 33rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  background-color: #f86942;
+}
+.text_2 h4 {
+  margin: 2rem;
+  font-weight: lighter;
+}
+.text_2 p {
+  margin: 2rem 4rem;
+  font-size: 1.3rem;
+  line-height: 3.5rem;
+  font-weight: lighter;
+}
+.text_2 button {
+  align-self: flex-start;
+  margin: 0 2rem;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
