@@ -1,0 +1,145 @@
+$medium-up: "only screen and (min-width: 750px)";
+$medium-down: "only screen and (max-width: 750px)";
+
+// 1046
+// 750
+$Blue: #18c5cc;
+$orange: #f86942;
+$white: #ffffff;
+$black: #000000;
+
+//
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px (10px/16px = 62.5%)
+}
+
+.container {
+  width: 80%;
+  height: 90vh;
+  margin: 10rem auto;
+}
+
+.top {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+}
+
+.formation {
+  flex: 0 0 33rem;
+  background-color: #18c5cc;
+  color: #ffffff;
+  margin-right: 2rem;
+  h3 {
+    margin-top: 8rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    margin: 8rem 2rem 6rem 2rem;
+  }
+  p {
+    margin: auto;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 6rem;
+    width: 66%;
+  }
+}
+
+.photo {
+  width: 33rem;
+  height: 33rem;
+  background-size: cover;
+
+  &__cartable {
+    background-image: url(/assets/images/cartable.jpg);
+    margin-right: 2rem;
+  }
+  &__pomme {
+    background-image: url(/assets/images/pommier.jpg);
+  }
+  &__reveil {
+    background-image: url(/assets/images/reveil.jpg);
+  }
+  &__blonde {
+    background-image: url(/assets/images/blondinette.jpg);
+    margin-right: 2rem;
+  }
+}
+
+.box__1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.box__2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin: auto;
+  width: 33rem;
+  height: 33rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  border: solid 1px #18c5cc;
+  color: #18c5cc;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.text_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  margin-left: 3rem;
+  color: #ffffff;
+  height: 33rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  background-color: #f86942;
+
+  h4 {
+    margin: 2rem;
+    font-weight: lighter;
+  }
+
+  p {
+    margin: 2rem 4rem;
+    font-size: 1.3rem;
+    line-height: 3.5rem;
+    font-weight: lighter;
+  }
+
+  button {
+    align-self: flex-start;
+    margin: 0 2rem;
+    font-size: 2rem;
+  }
+}
