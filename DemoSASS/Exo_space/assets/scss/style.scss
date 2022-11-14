@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px (10px/16px = 62.5%)
+}
+
+body {
+  background-color: #0b013c;
+}
+
+.container {
+  width: 90%;
+  min-height: 100vh;
+  margin: 10rem auto 0;
+}
+
+// part1
+.space-box {
+  background-image: url(/assets/images/headerTop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80rem;
+  position: relative;
+
+  &__text {
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+
+    &__title {
+      font-size: 14rem;
+      color: white;
+      margin-bottom: 2rem;
+    }
+    &__paragraph1 {
+      font-size: 8rem;
+      color: white;
+      margin-bottom: 2rem;
+    }
+    &__paragraph2 {
+      font-size: 3rem;
+      color: white;
+      margin-bottom: 3rem;
+    }
+    &__email {
+      width: 60%;
+      height: 3.5rem;
+    }
+    &__button {
+      width: 20%;
+      height: 3.5rem;
+    }
+  }
+}
+
+// part2
+
+.education {
+  background-color: white;
+  color: black;
+  min-height: 40vh;
+  text-align: center;
+  padding-top: 6rem;
+  &__subtitle {
+    font-weight: 100;
+    font-size: 6rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+  &__title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0;
+    font-size: 8rem;
+    text-transform: uppercase;
+  }
+  &__barre {
+    margin: auto;
+    width: 10%;
+    height: 1.5rem;
+    background-color: #f8cb8a;
+    border: 0;
+    margin-bottom: 4rem;
+  }
+  &__texte {
+    font-size: 2rem;
+    width: 65%;
+    margin: auto;
+    text-align: justify;
+    font-style: italic;
+    color: rgba(#0b013c, 0.5);
+    padding-bottom: 4rem;
+  }
+}
+
+//part 3
+
+.aboard {
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  display: flex;
+  background-color: white;
+  padding-left: 20rem;
+
+  &__earth {
+    height: 60%;
+    width: 40%;
+  }
+
+  &__text {
+    &__subtitle {
+      margin-left: 2rem;
+      font-weight: 100;
+      font-size: 4rem;
+    }
+    &__title {
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 2rem;
+      font-size: 7rem;
+      margin-left: 2rem;
+      text-transform: uppercase;
+    }
+    &__barre {
+      margin-left: 2rem;
+      margin-top: 4rem;
+      width: 20%;
+      height: 1.5rem;
+      background-color: #f8cb8a;
+      border: 0;
+      margin-bottom: 4rem;
+    }
+    &__paragraph {
+      margin-left: 2rem;
+      font-size: 2rem;
+      width: 35%;
+      text-align: left;
+      font-style: italic;
+      color: rgba(#0b013c, 0.5);
+      padding-bottom: 4rem;
+    }
+  }
+}

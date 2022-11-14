@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px (10px/16px = 62.5%)
+}
+
+.ctn {
+  width: 60%;
+  height: 100vh;
+  margin: 10rem auto;
+}
+
+//header
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  background-image: url(/assets/images/mur.jpg);
+
+  &__img {
+    height: 40%;
+    z-index: 2;
+  }
+
+  &__rond {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: red;
+    z-index: 1;
+  }
+}
+
+//box1
+.box1 {
+  display: flex;
+  background-color: white;
+
+  &__texte {
+    flex: 0 0 30%;
+    margin: 5rem 4rem;
+    text-align: center;
+    &__title {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+    }
+    &__barre {
+      margin-left: 14rem;
+      width: 15%;
+      height: 0.8rem;
+      background-color: red;
+      border: 0;
+      margin-bottom: 4rem;
+    }
+    &__paragraph {
+      text-align: justify;
+      font-size: 2rem;
+      width: 90%;
+      margin: auto;
+    }
+  }
+
+  &__img {
+    flex: 1;
+    width: 60%;
+  }
+}
+
+// box2
+.box2 {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: white;
+
+  &__texte {
+    flex: 0 0 30%;
+    margin: 5rem 4rem;
+    text-align: center;
+    &__title {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+    }
+    &__barre {
+      margin-left: 14rem;
+      width: 15%;
+      height: 0.8rem;
+      background-color: red;
+      border: 0;
+      margin-bottom: 4rem;
+    }
+    &__paragraph {
+      text-align: justify;
+      font-size: 2rem;
+      width: 90%;
+      margin: auto;
+    }
+  }
+
+  &__img {
+    flex: 1;
+    width: 60%;
+  }
+}
+
+// box3
+.box3 {
+  display: flex;
+  background-color: white;
+
+  &__texte {
+    flex: 0 0 30%;
+    margin: 5rem 4rem;
+    text-align: center;
+    &__title {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+    }
+    &__barre {
+      margin-left: 14rem;
+      width: 15%;
+      height: 0.8rem;
+      background-color: red;
+      border: 0;
+      margin-bottom: 4rem;
+    }
+    &__paragraph {
+      text-align: justify;
+      font-size: 2rem;
+      width: 90%;
+      margin: auto;
+    }
+  }
+
+  &__img {
+    flex: 1;
+    width: 60%;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 40vh;
+  background-image: url(/assets/images/oeuf.jpg);
+  background-size: cover;
+}
