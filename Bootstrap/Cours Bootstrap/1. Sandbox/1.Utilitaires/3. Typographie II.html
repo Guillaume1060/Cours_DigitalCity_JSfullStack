@@ -52,16 +52,16 @@
 
     <h2 class="display-6 my-5">Gérer le "wrapping"</h2>
 
-    <!-- [text-wrap|nowrap|break] -->
+    <!-- [text-wrap|nowrap] -->
 
     <!-- Text Wrap -->
-    <p class="bg-primary text-light fs-5 mb-5" style="width: 150px">
+    <p class="bg-primary text-light text-wrap fs-5 mb-5" style="width: 150px">
       Du texte qui wrap si il n'y plus de place
     </p>
 
 
     <!-- Text Break [text-break]  -->
-    <p class="">
+    <p class="text-break">
       wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
     </p>
 
@@ -92,7 +92,7 @@
     <!-- Faire un "Blockquote" -->
     <!-- [blockquote] -->
 
-    <blockquote class="">
+    <blockquote class="blockquote">
       <p>Une "Blockquote" est un texte mis en avant.</p>
     </blockquote>
 
@@ -102,13 +102,13 @@
     <!-- [blockquote-footer] sur la référence -->
 
     <figure class="mb-5">
-      <blockquote class="">
+      <blockquote class="blockquote">
         <p>
           “Pour s'améliorer, il faut changer. Donc, pour être parfait, il faut
           avoir changé souvent.”
         </p>
       </blockquote>
-      <figcaption class="">
+      <figcaption class="blockquote-footer">
         De Winston Churchill, <cite title="Source Title">Mémoires</cite>
       </figcaption>
     </figure>
@@ -135,12 +135,12 @@
     <!-- .active pour rajouter un item actif -->
     <!-- .disabled pour griser un élément -->
 
-    <ul class=" mb-5">
-      <li class="active">item</li>
-      <li class="">item</li>
-      <li class="">item</li>
-      <li class="">item</li>
-      <li class="disabled" aria-disabled="true">désactivé</li>
+    <ul class="list-group mb-5">
+      <li class="list-group-item active">item</li>
+      <li class="list-group-item">item</li>
+      <li class="list-group-item">item</li>
+      <li class="list-group-item">item</li>
+      <li class="list-group-item disabled" aria-disabled="true">désactivé</li>
     </ul>
 
 
