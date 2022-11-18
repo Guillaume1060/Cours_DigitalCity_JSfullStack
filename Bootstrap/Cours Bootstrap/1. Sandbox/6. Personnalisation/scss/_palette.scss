@@ -1,0 +1,24 @@
+// Palette color perso
+$customBeige: beige;
+$customWhite: #f1f1f1;
+$customGreen: lightgreen;
+
+// je créé l'objet avec mes couleurs personnalisées
+$custom-theme-colors: (
+  "beige": $customBeige,
+  "graywhite": $customWhite,
+  "green": $customGreen,
+);
+
+// je les merge avec les couleurs par défaut
+$theme-colors: map.merge($custom-theme-colors, $theme-colors);
+
+// j'ajoute ces couleurs aux "bgc" et "color" car elles ne sont pas ajoutées avec map.merge
+@each $key, $val in $custom-theme-colors {
+  .bg-#{$key} {
+    background-color: $val;
+  }
+  .text-#{$key} {
+    color: $val;
+  }
+}

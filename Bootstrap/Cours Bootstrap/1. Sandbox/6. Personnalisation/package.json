@@ -1,0 +1,15 @@
+{
+  "name": "6.-personnalisation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/global.scss styles/raw/style.css -w",
+    "purge": "purgecss -css styles/raw/style.css --content index.html -o styles/cleaned/style.css "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

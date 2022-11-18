@@ -1,0 +1,25 @@
+// ici on créé des utilities (exemple: class "w-400")
+$utilities: (
+  "cursor": (
+    property: cursor,
+    values: auto pointer grab,
+  ),
+  "width": (
+    property: width,
+    class: w,
+    values: (
+      400: 400px,
+    ),
+  ),
+  "opacity": (
+    property: opacity,
+    responsive: true,
+    /// permet ici d'utiliser la responsivité de bootstrap (ex:opacity-sm-50)
+    values:
+      (
+        0: 0,
+        50: 0.5,
+        100: 1,
+      ),
+  ),
+);
