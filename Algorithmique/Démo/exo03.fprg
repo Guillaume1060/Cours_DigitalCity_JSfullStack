@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Stagiaire"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-23 01:39:16 "/>
+        <attribute name="created" value="U3RhZ2lhaXJlO0RFU0tUT1AtQlJVM09SQjsyMDIyLTExLTIzOyIxMTo1MjoxMyAiOzMxOTY="/>
+        <attribute name="edited" value="U3RhZ2lhaXJlO0RFU0tUT1AtQlJVM09SQjsyMDIyLTExLTIzOyIwMTozOToxNiAiOzE7MzMxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nb1" type="String" array="False" size=""/>
+            <declare name="nb2" type="String" array="False" size=""/>
+            <assign variable="nb1" expression="&quot;5&quot;"/>
+            <assign variable="nb2" expression="&quot;7&quot;"/>
+            <output expression="&quot;Avant: nb1 = &quot;&amp;nb1&amp;&quot; et nb2 = &quot;&amp;nb2" newline="True"/>
+            <declare name="nb3" type="String" array="False" size=""/>
+            <assign variable="nb3" expression="nb2"/>
+            <assign variable="nb2" expression="nb1"/>
+            <assign variable="nb1" expression="nb3"/>
+            <output expression="&quot;Apres: nb1 = &quot;&amp;nb1&amp;&quot; et nb2 = &quot;&amp;nb2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

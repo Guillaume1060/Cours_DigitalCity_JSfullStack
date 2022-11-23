@@ -1,0 +1,64 @@
+Algorithme demoIntro
+DEBUT
+// déclaration
+    Variable prenom, nom, animalCompagnie, pays, lieuNaissance  : Chaine
+    Variable age, ageAnimaldeCompagnie, AnneeNaissance, codePostal, EntierPrefere : Entier
+    Variable prixEssence, ageReel, kilometreAuto, codePostal, EntierPrefere : Reel
+    Variable marie, enfant, belge, fumeur, catholique : Booleen
+    
+prenom <- "Guillaume"
+nom ← "Breyer"
+animalCompagnie ← "Bussi"
+pays ← "France"
+lieuNaissance ← "Tourcoing"
+
+age ← "26"
+ageAnimaldeCompagnie ← "3"
+AnneeNaissance ← "1980"
+codePostal ← "1060"
+EntierPrefere ← "13"
+
+prixEssence ← 2.25
+ageReel ← 26.3
+kilometreAuto ← 186023
+taille ← 1.79
+poids ← 78.0
+
+marie ← false
+aEnfant ← false
+belge ← false
+fumeur ← false
+estCatholique ← false
+
+Variable message : Chaine
+message ← "Hello vous"
+Ecrire(message)
+
+
+
+ Variable a, b, c, d, e : Entier
+ a <- 8 % 3 // 2
+ b <- 4 + a // 6 
+ c <- b * a // 12
+ d <- (c – a) * b // 60
+ e <- ((a + 7) * (d / a)) * 0 // 0
+
+
+
+///exo 07
+Variable x : Entier
+Variable nbrJours : Entier 
+Variable nbrMinutes : Entier
+Variable nbrHeures : Entier
+Variable nbrSecondes : Entier
+
+nbrSecondes <- x-(x % 60)
+nbrMinutes <- (x / 60) % 60
+nbrHeures <- x % 60
+nbrJours <- x- (x % 86400)
+
+
+
+
+FIN
+
