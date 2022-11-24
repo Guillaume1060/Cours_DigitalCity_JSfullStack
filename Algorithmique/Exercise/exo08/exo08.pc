@@ -1,0 +1,14 @@
+
+
+Considérons A = 3, B = 9, C = Faux, D = NON (C), E = 9.
+
+
+
+    1. (A > 8) // false
+    2. (B == 9) // true
+    3. (NON(A != 3)) // true
+    4. (NON(C)) // true
+    5. ((A < B) OU C) // true
+    6. NON((A + B) != 12) //  true
+    7. ((B == 5) OU ( (E > 10) ET (A < 8) )) // false
+    8. ((((B == 5) OU ((E > 10) ET (A < 8))) OU (A < B) OU C) ET C) // false
